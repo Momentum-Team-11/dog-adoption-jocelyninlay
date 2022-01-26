@@ -1,8 +1,13 @@
+body {
+    font-family: "Open Sans"
+}
+
 .section-1 {
     background-color: #004175;
     border-color: #89DEEF;
     color: #ffff;
     padding: 1em;
+    
 }
 .dog-grid {
     display: grid;
