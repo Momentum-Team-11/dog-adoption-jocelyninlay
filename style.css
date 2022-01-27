@@ -1,5 +1,12 @@
 body {
-    font-family: "Open Sans"
+    font-family: "Open Sans";
+    background-color: lightgray;
+    margin: 15%;
+}
+
+.body-container {
+justify-content: center;
+background-color: white;
 }
 
 .section-1 {
@@ -7,13 +14,19 @@ body {
     border-color: #89DEEF;
     color: #ffff;
     padding: 1em;
-    
+    max-width: 100%;
 }
+
+.linktoform {
+    padding: 1em;
+}
+
 .dog-grid {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;;
+    display: grid;
+    max-width: 1240px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: min-content 1fr;
     grid-gap: 1rem;
-    justify-content: center;
     margin: 5rem;
     
 }
@@ -26,9 +39,9 @@ body {
 }
 
 .dog-container img {
-     max-width: 100%;
-     height: auto;
-     display: flex;
+    max-width: 100%;
+    height: auto;
+    display: flex;
 }
 .tag {
     display:inline-flex;
@@ -45,20 +58,22 @@ body {
 }
 
 .footer {
-    display: inline-flex;
-    width: auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0rem;
+    display: flex;
     justify-content: center;
+    max-width: 1240px;
+    flex: 1 1 auto;
+    grid-gap: 0rem;
     margin: 5rem;
     
 }
 
 .bottom-section {
-    border: 2px solid black;
+    display: flex;
     padding: 5rem;
     font-size: 25px;
+    color: white; 
 }
+
 
 .one {
     background: linear-gradient(
