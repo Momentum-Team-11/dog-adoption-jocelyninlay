@@ -1,7 +1,9 @@
 body {
     font-family: "Open Sans";
-    background-color: lightgray;
-    margin: 15%;
+    background-color: rgb(235, 234, 234);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0;
 }
 
 .body-container {
@@ -11,7 +13,7 @@ background-color: white;
 
 .section-1 {
     background-color: #004175;
-    border-color: #89DEEF;
+    border-bottom: 2px solid #89DEEF;
     color: #ffff;
     padding: 1em;
     max-width: 100%;
@@ -47,7 +49,7 @@ background-color: white;
     display:inline-flex;
     width: auto;
     list-style-type: none;
-    background: lightblue;
+    background: #89DEEF;
     margin: 0;
     padding: 2px 4px;
     border-radius: 25px;
@@ -60,18 +62,20 @@ background-color: white;
 .footer {
     display: flex;
     justify-content: center;
-    max-width: 1240px;
+    max-width: 100%;
+    height: auto;
     flex: 1 1 auto;
-    grid-gap: 0rem;
-    margin: 5rem;
     
 }
 
 .bottom-section {
     display: flex;
-    padding: 5rem;
-    font-size: 25px;
+    padding: 5em;
+    font-size: 2vw;
     color: white; 
+    max-width: auto;
+    overflow: hidden;
+    
 }
 
 
