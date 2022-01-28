@@ -1,8 +1,8 @@
 body {
     font-family: "Open Sans";
     background-color: rgb(235, 234, 234);
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 0;
 }
 
@@ -74,8 +74,7 @@ background-color: white;
     font-size: 2vw;
     color: white; 
     max-width: auto;
-    overflow: hidden;
-    
+    justify-content: center;
 }
 
 
@@ -86,7 +85,7 @@ background-color: white;
     ),
     url("starter_files/images/donate.jpg");
     background-color: lightblue;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat:no-repeat;
     flex: 1 1 auto;
     
@@ -99,7 +98,7 @@ background-color: white;
     ),
     url("starter_files/images/volunteer.jpg");
     background-color: lightblue;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat:no-repeat;
     flex: 1 1 auto;
 }
@@ -111,7 +110,7 @@ background-color: white;
     ),
     url("starter_files/images/location.png");
     background-color: lightblue;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat:no-repeat;
     flex: 1 1 auto;
 }
